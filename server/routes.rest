@@ -1,0 +1,7 @@
+POST https://862a-41-139-202-31.ngrok-free.app/api/payments/stk
+Content-Type: application/json
+
+{
+  "phoneNumber": "254113240695",
+  "amount": 100
+}
