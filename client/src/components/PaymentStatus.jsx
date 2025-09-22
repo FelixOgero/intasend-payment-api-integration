@@ -144,7 +144,8 @@ import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:5000/api/payments'
+// const API_URL = 'http://localhost:5000/api/payments'
+const API_URL = 'https://intasend-payment-api-integration.onrender.com/api/payments'
 
 function PaymentStatus() {
   const [status, setStatus] = useState('PROCESSING')
