@@ -484,6 +484,8 @@ function PaymentForm() {
       ) : (
         <form onSubmit={handleCheckoutSubmit} className="payment-form">
           <h2>IntaSend Checkout</h2>
+          <h3>Card Test Credentials: Card Number 445653 00 0000 1096, any future date as the expiry and any three digits as the CVC</h3>
+          <h3>M-Pesa Test Credentials: Phone Number 254708374149</h3>
           
           <div className="form-group">
             <label htmlFor="amount">Amount (KES)</label>
